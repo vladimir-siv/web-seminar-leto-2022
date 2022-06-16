@@ -1,4 +1,4 @@
-const movies = ['Harry Potter', 'The Pink Panther', 'Star Wars', 'Hobbit'];
+const movies = ["Harry Potter", "The Pink Panther", "Star Wars", "Hobbit"];
 let index = movies.length;
 
 function nextMovie() {

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>JavaScript - fetch API</title>
+	</head>
+	<body>
+		<div id="tmdb">
+			<button type="button" onclick="onSearchPopularMoviesClick()">Search Popular Movies</button>
+			<script type="text/javascript">
+				function onSearchPopularMoviesClick() {
+					const token = "AUTH_TOKEN";
+
+					const responsePromise = fetch("https://api.themoviedb.org/3/movie/popular/", {
+						method: "GET",
+						headers: {
+							Authorization: "Bearer " + token
+						}
+					});
+
+					console.log(responsePromise);
+
+					responsePromise.then(
+						function callback(response) {
+							console.log(response);
+
+							const bodyPromise = response.json();
+							bodyPromise.then(
+								function callback(bodyJson) {
+									console.log(bodyJson);
+								}
+							);
+						}
+					);
+				}
+			</script>
+		</div>
+	</body>
+</html>
