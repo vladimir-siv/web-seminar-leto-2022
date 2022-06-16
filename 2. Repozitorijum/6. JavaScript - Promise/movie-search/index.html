@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>JavaScript - Promise</title>
+		<script type="text/javascript" src="movies.js"></script>
+	</head>
+	<body>
+		<div id="calculator">
+			Number 1: <input id="number1" type="number" /><br />
+			Number 2: <input id="number2" type="number" /><br />
+			<button type="button" onclick="addNumbers()">Add</button>
+			Sum: <span id="result" style="color: red">/</span>
+
+			<script type="text/javascript">
+				function addNumbers() {
+					const number1 = parseFloat(document.getElementById("number1").value);
+					const number2 = parseFloat(document.getElementById("number2").value);
+					const result = document.getElementById("result");
+					result.innerHTML = number1 + number2;
+				}
+			</script>
+		</div>
+
+		<br /><br /><br />
+
+		<div id="app">
+			<button type="button" onclick="onSearchMovieButtonClick_V1()">Search Movie</button>
+			<button type="button" onclick="onSearchMovieButtonClick_V2()">Search Movie Async</button>
+			<br />
+			Movie: <span id="movieSpan" style="color: red"></span>
+
+			<script type="text/javascript">
+				function onSearchMovieButtonClick_V1() {
+					const movie = searchMovie();
+					console.log(movie);
+
+					document.getElementById("movieSpan").innerHTML = movie;
+				}
+
+				function onSearchMovieButtonClick_V2() {
+					const movie = searchMovieAsync();
+					console.log(movie);
+
+					movie.then(
+						function callback(value) {
+							document.getElementById("movieSpan").innerHTML = value;
+						}
+					);
+				}
+			</script>
+		</div>
+	</body>
+</html>

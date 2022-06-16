@@ -1,0 +1,22 @@
+Potrebno znanje:
+- Osnove programiranja
+- Osnove C# (Console i/ili WinForms)
+- Osnove HTML/CSS/JS
+- Osnove SQL
+
+Teme:
+1. Uvod u [fullstack] web programiranje
+2. Klijent-Server arhitektura
+3. Primer Klijent-Server modela
+4. HTTP request/response
+5. Postman
+6. JavaScript - Promise
+7. JavaScript - fetch API
+8. XML
+9. JSON
+10. ASP.NET WebApi [RestApi] (Backend)
+11. Browser App (Frontend)
+12. Sessions/Account Management/Login
+13. Entity Framework (ORM)
+14. ASP.NET MVC
+15. Uvod u Angular
