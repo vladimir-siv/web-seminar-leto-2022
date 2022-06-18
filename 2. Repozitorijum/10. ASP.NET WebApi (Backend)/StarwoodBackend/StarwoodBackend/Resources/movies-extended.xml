@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<movies>
+	<movie id="1">
+		<name>The Fast &amp; Furious</name>
+		<genres>
+			<genre name="Action" ratio="0.43" />
+			<genre name="Adventure" ratio="0.23" />
+			<genre name="Crime" ratio="0.34" />
+		</genres>
+	</movie>
+	<movie id="2">
+		<name>Avatar</name>
+		<genres>
+			<genre name="Action" ratio="0.21" />
+			<genre name="Adventure" ratio="0.24" />
+			<genre name="Fantasy" ratio="0.55" />
+		</genres>
+	</movie>
+	<movie id="3">
+		<name>The Hangover</name>
+		<genres>
+			<genre name="Comedy" ratio="1" />
+		</genres>
+	</movie>
+	<movie id="4">
+		<name>Star Wars: A New Hope</name>
+		<genres>
+			<genre name="Action" ratio="0.26" />
+			<genre name="Adventure" ratio="0.14" />
+			<genre name="Fantasy" ratio="0.60" />
+		</genres>
+	</movie>
+	<movie id="5">
+		<name>The Lord of the Rings: The Two Towers</name>
+		<genres>
+			<genre name="Action" ratio="0.24" />
+			<genre name="Adventure" ratio="0.73" />
+			<genre name="Drama" ratio="0.03" />
+		</genres>
+	</movie>
+	<movie id="6">
+		<name>Forrest Gump</name>
+		<genres>
+			<genre name="Drama" ratio="0.65" />
+			<genre name="Romance" ratio="0.35" />
+		</genres>
+	</movie>
+	<movie id="7">
+		<name>The Terminator</name>
+		<genres>
+			<genre name="Action" ratio="0.62" />
+			<genre name="Sci-Fi" ratio="0.38" />
+		</genres>
+	</movie>
+	<movie id="8">
+		<name>The Matrix</name>
+		<genres>
+			<genre name="Action" ratio="0.46" />
+			<genre name="Sci-Fi" ratio="0.54" />
+		</genres>
+	</movie>
+	<movie id="9">
+		<name>Shutter Island</name>
+		<genres>
+			<genre name="Mystery" ratio="0.89" />
+			<genre name="Thriller" ratio="0.11" />
+		</genres>
+	</movie>
+	<movie id="10">
+		<name>Joker</name>
+		<genres>
+			<genre name="Crime" ratio="0.47" />
+			<genre name="Drama" ratio="0.39" />
+			<genre name="Thriller" ratio="0.14" />
+		</genres>
+	</movie>
+</movies>
