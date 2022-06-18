@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<style> table, th, td { border: 1px solid black; } </style>
+		<title>Starwood</title>
+		<script type="text/javascript" src="index.js"></script>
+		<script type="text/javascript" src="ui.js"></script>
+	</head>
+	<body>
+		<button type="button" onclick="onMostPopularMovieClick();">Most Popular Movie</button>
+		<button type="button" onclick="onTrendingMoviesClick();">Trending Movies</button>
+		<input type="number" id="count" min="1" max="10" value="4" />
+		
+		<br />
+		<label>Movies:</label>
+		
+		<table>
+			<thread>
+				<tr>
+					<th>ID</th>
+					<th>Name</th>
+					<th>Genres</th>
+				</tr>
+			</thread>
+			<tbody id="movies">
+
+			</tbody>
+		</table>
+	</body>
+</html>
