@@ -14,9 +14,9 @@ Teme:
 7. JavaScript - fetch API
 8. XML
 9. JSON
-10. ASP.NET WebApi [RestApi] (Backend)
+10. ASP.NET WebApi (Backend)
 11. Browser App (Frontend)
-12. Sessions/Account Management/Login
-13. Entity Framework (ORM)
-14. ASP.NET MVC
+12. Entity Framework (ORM)
+13. ASP.NET MVC
+14. Sessions/Account Management/Login
 15. Uvod u Angular
