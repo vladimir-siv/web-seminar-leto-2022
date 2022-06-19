@@ -17,6 +17,6 @@ Teme:
 10. ASP.NET WebApi (Backend)
 11. Browser App (Frontend)
 12. Entity Framework (ORM)
-13. ASP.NET MVC
-14. Sessions/Account Management/Login
-15. Uvod u Angular
+13. Account Management
+14. Uvod u Angular
+15. ASP.NET MVC
