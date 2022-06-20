@@ -36,7 +36,7 @@ namespace StarwoodBackend.Controllers
 
 				XmlNode genresElement = movieElement.ChildNodes[1];
 				for (var j = 0; j < genresElement.ChildNodes.Count; ++j)
-                {
+				{
 					XmlNode genreElement = genresElement.ChildNodes[j];
 
 					Genre genre = new Genre();
@@ -44,7 +44,7 @@ namespace StarwoodBackend.Controllers
 					genre.Ratio = double.Parse(genreElement.Attributes["ratio"].Value);
 
 					movie.Genres.Add(genre);
-                }
+				}
 
 				movies[i] = movie;
 			}
