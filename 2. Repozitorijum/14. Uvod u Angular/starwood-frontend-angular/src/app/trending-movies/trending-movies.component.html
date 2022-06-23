@@ -1,0 +1,10 @@
+<button type="button" (click)="showTrendingMovies();">Trending Movies</button>
+<br/>
+
+<label *ngIf="trendingMovies.length == 0">
+    No movies to display. Click the button above.
+</label>
+
+<ul *ngIf="trendingMovies.length > 0">
+    <li *ngFor="let movie of trendingMovies; index as i">{{ movie.name }}</li>
+</ul>
