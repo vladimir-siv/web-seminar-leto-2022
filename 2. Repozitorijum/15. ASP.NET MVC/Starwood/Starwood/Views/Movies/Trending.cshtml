@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Trending Movies";
+}
+
+<ul>
+    @foreach (var movie in ViewBag.TrendingMovies)
+    {
+        <li>@movie</li>
+    }
+</ul>
